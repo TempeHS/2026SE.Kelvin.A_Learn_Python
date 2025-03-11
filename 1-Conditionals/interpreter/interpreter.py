@@ -3,7 +3,7 @@ x = int(x)
 z = int(z)
 
 if y == '+':
-    result = (x+ z)
+    result = (x + z)
 if y == '-':
     result = (x - z)
 if y == '*':
