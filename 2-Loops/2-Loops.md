@@ -7,7 +7,7 @@ Watch the [Loops](https://schoolsnsw.sharepoint.com/:v:/r/sites/TempeHS-Software
 ## Dictionary of Terms
 
 1. Loop
-2. Interate
+2. Iterate
 3. While loop
 4. Do While loop
 5. For loop
