@@ -1,7 +1,4 @@
-x, y, z = int(input("Enter x: ")), int(input("Enter y: ")), int(input("Enter z: "))
-
-
-list = (x, y, z)
+list = (1, 2, 3)
 
 for i in list:
     for j in list:
