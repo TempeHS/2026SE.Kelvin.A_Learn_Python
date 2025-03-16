@@ -1,5 +1,5 @@
 def main():
-    x = Fuel()
+    x = fuel()
     if x < 1.0:
         print("E")
     elif x > 99.0:
@@ -7,7 +7,7 @@ def main():
     else:
         print(f"{x:.0f}%")
 
-def Fuel():
+def fuel():
     while True:
         try:
             x = int(input("What is x? "))
@@ -15,9 +15,8 @@ def Fuel():
             return (x / y) * 100
         except ValueError:
             print("Enter Integers")
-            pass
         except ZeroDivisionError:
             print("Cannot divide by 0")
-            pass
+            
 
 main()
